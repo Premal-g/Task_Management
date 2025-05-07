@@ -12,8 +12,8 @@ const app = express()
 
 app.use(express.json())
 app.use(cors({
-    // origin: 'http://localhost:5173'
-    origin: 'https://task-management-yylu.onrender.com/api/task'
+     origin: 'http://localhost:5173'
+    // origin: 'https://task-management-yylu.onrender.com/api/task'
 }))
 
 
